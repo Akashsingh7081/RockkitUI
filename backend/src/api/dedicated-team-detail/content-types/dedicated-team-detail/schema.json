@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "dedicated_team_details",
+  "info": {
+    "singularName": "dedicated-team-detail",
+    "pluralName": "dedicated-team-details",
+    "displayName": "DedicatedTeamDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DedicatedSectionDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-details.details"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_details",
+  "info": {
+    "singularName": "company-detail",
+    "pluralName": "company-details",
+    "displayName": "CompanyDetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-element.list-item"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

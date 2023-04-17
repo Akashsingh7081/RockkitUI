@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "work_section_details",
+  "info": {
+    "singularName": "work-section-detail",
+    "pluralName": "work-section-details",
+    "displayName": "workSectionDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WorkSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section-details.details"
+    }
+  }
+}
